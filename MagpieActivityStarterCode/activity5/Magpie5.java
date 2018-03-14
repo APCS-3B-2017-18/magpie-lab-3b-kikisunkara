@@ -47,7 +47,7 @@ public class Magpie5
   else if (findKeyword(statement, "mom") >= 0
     || findKeyword(statement, "dad") >= 0
     || findKeyword(statement, "sister") >= 0
-    || findKeyword(statement, "dad") >= 0)
+    || findKeyword(statement, "brother") >= 0)
   {
    response = "Tell me about your family.";
   }
